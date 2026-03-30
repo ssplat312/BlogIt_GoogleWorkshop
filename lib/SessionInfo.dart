@@ -84,6 +84,15 @@ class Sessioninfo {
       blogsUsed.add(tempBlog);
       print(tempBlog.title);
     }
+
+    for (int i = 0; i < blogsUsed.length - 1; i++) {
+      for (int j = i + 1; j < blogsUsed.length; j++) {
+        if (blogsUsed[i].SameBlog(blogsUsed[j])) {
+          blogsUsed.removeAt(j);
+          j--;
+        }
+      }
+    }
   }
 
   @override
