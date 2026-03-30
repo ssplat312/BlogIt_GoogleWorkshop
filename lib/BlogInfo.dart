@@ -8,6 +8,11 @@ class Bloginfo extends ResponseInfo {
   int views = 0;
   List<String> tags = [];
   Bloginfo() : super();
+
+  bool SameBlog(Bloginfo otherBlog) {
+    return blogID == otherBlog.blogID;
+  }
+
   void SetBlogInfo(Map<String, dynamic> blogMap, String blogId) {
     this.blogID = blogId;
     isHidden = blogMap.containsKey("isHidden") ? blogMap["isHidden"] : false;
