@@ -1,21 +1,17 @@
-# BlogIt_GoogleWorkshop
-A simple blogging application.
+# blogit_googleworkshop
 
-## Developer Set-Up
+A new Flutter project.
 
-### Specifications
+## Getting Started
 
-Primary Language:    Dart
-Database:            Firebase
-Framework:           Flutter
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-### Build
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-- Install **Android Studio**: https://developer.android.com/studio
-- - More Actions -> SDK Manager -> (Enable Android SDK Platform-Tools, Android SDK Command-line Tools, Android Emulator, and Android Emulator hypervisor driver (installer))
-- - ***If needed***, More Actions -> Virtual Device Manager -> Create Device -> (any device) -> Latest Stable Image (Recommended) -> Download
-
-- Install **Visual Studio Code**: https://code.visualstudio.com/download
-- - Install **Dart**: (VSC Extension) https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
-- - Install **Flutter SDK**: (Prompted by VSC)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
