@@ -1,0 +1,26 @@
+Use Row for elements to be left to right
+
+Use Column for elements to be top to bottom
+
+
+Text Style helpful paremeters
+    Color? color,
+    Color? backgroundColor,
+    double? fontSize,
+    FontWeight? fontWeight,
+    FontStyle? fontStyle,
+    double? letterSpacing,
+    double? wordSpacing,
+    TextBaseline? textBaseline,
+    double? height,
+
+
+Use the Colors class to access multiple colors.
+
+
+Package needed to be added 
+    flutter pub add firebase_core
+    flutter pub add firebase_auth cloud_firestore
+    flutter pub add get
+    flutter pub add provider
+    flutter pub add image_picker
