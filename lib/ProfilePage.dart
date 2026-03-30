@@ -68,7 +68,7 @@ class _ProfilePageState extends State<ProfilePage> {
 
     print("New Biography Height: ${biographyHeight.toString()}");
     return Scaffold(
-      appBar: AppBar(title: Text("User Page")),
+      appBar: AppBar(title: Text("User Page"), backgroundColor: appbarColor),
       backgroundColor: backgroundColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
