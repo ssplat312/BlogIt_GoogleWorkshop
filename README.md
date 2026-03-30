@@ -15,3 +15,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+Create a new flutter project but copy and use the lib folder and type the command lines shown below.
+flutter pub add firebase_core
+flutter pub add firebase_auth cloud_firestore
+flutter pub add get
+flutter pub add provider
+
