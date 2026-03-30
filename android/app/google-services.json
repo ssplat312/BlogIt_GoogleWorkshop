@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60851299608",
+    "project_id": "blog-it--workshop",
+    "storage_bucket": "blog-it--workshop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60851299608:android:e932e1a778a53ce900ea6d",
+        "android_client_info": {
+          "package_name": "com.example.blogit_googleworkshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-pbBfn5e4Dm8c9P5p9_sgnwWPTCOqgdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
